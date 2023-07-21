@@ -60,3 +60,9 @@ def Pisces(request):
 
 def Kapibara(request):
     return HttpResponse("<a href='https://www.youtube.com/watch?v=zz7IIN_MAN4&ab_channel=UncleKnuckles'>Капибара</a>")
+
+
+sign = {
+    '1': 'Телец',
+    '2': 'Близнецы'
+}
